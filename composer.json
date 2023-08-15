@@ -1,0 +1,20 @@
+{
+    "vendor-name": "miniframework",
+    "require": {
+        "php": ">=7.0"
+    },
+    "authors": [
+        {
+            "name": "eduardo",
+            "email": "eduardobgrasel@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "MF\\": "vendor/MF/"
+        }
+    }
+    
+
+}
